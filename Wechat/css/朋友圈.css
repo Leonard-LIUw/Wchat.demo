@@ -8,7 +8,7 @@
 }
 
 .dongtai {
-	flex: 12;
+	flex-grow: 1;
 	/*height: auto;*/
 	overflow-y: scroll;
 	/*display: flex;*/
@@ -115,6 +115,7 @@
 #rightadiadi {
 	display: flex;
 	justify-content: space-between;
+	
 }
 .rightadia{
 	color: gray;
@@ -124,9 +125,42 @@
 #rightacolor{
 	color: darkslateblue;
 }
+.rightadib{
+	position: relative;
+}
+.dianzan{
+	/*border: 1px solid red;*/
+	background-color: grey;
+	border-radius: 9%;
+	width: 140px;
+	height: 30px;
+	position: absolute;
+	right: 35px;
+	bottom: 0px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.zan{
+	width: 60px;
+	display: flex;
+}
+.a img{
+	width: 20px;
+	height: 20px;
+}
+.c img{
+	width: 10px;
+	height: 10px;
+}
+.pin{
+	width: 80px;
+	display: flex;
+}
 .rightadib img {
 	width: 30px;
 	height: 30px;
+	
 }
 #pinlun{
 	height: 40px;

@@ -1,5 +1,5 @@
 .wo{
-		flex: 12;
+		flex-grow: 1;
 	overflow-y: scroll;
 	background-color: #EEEEEE;
 }

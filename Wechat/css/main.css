@@ -1,14 +1,16 @@
 			.main {
 				/*text-align: left;*/
 				/*border: 1px solid red;*/
-				flex: 12;
+				flex-grow: 1;
 				overflow-y: scroll;
 			}
 			
 			::-webkit-scrollbar {
 				display: none;
 			}
-			
+			.chat a{
+				text-decoration: none;
+			}
 			#search {
 				display: flex;
 				justify-content: center;
@@ -72,6 +74,7 @@
 				/*border: 1px solid navy;*/
 				line-height: 30px;
 				text-indent: 10px;
+				color: #483D8B;
 			}
 			
 			.word {
