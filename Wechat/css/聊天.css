@@ -19,13 +19,17 @@
 }
 .duihua{
 	width: 100%;
-	/*border: 1px solid red;*/
-	/*overflow-y: scroll;*/
+	border: 1px solid red;
+	overflow-y: scroll;
 }
+::-webkit-scrollbar {
+	display: none;
+}
+
 .aa{
 	width: 100%;
 	height: 50px;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -35,6 +39,8 @@
 	background-color: greenyellow;
 	line-height: 50px;
 	border-radius: 5px;
+	text-indent: 10px;
+	
 }
 .b1{
 	width: 50px;
@@ -48,7 +54,7 @@
 .bb{
 	width: 100%;
 	height: 50px;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	display: flex;
 }
 .b2{
@@ -57,6 +63,7 @@
 	background-color: white;
 	line-height: 50px;
 	border-radius: 5px;
+	text-indent: 10px;
 }
 .a2{
 	width: 50px;
@@ -74,7 +81,7 @@
 .yuying{
 	width: 50px;
 	height: 50px;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 }
 .yuying img{
 	width: 30px;
@@ -83,7 +90,7 @@
 }
 .input{
 	flex: 1;
-	/*border: 1px solid yellow;*/
+	border: 1px solid yellow;
 	line-height: 50px;
 }
 .input input{
@@ -93,7 +100,7 @@
 .jiahao{
 	width: 100px;
 	height: 50px;
-	/*border: 1px solid blue;*/
+	border: 1px solid blue;
 	display: flex;
 	
 }
@@ -101,4 +108,8 @@
 	width: 30px;
 	height: 30px;
 	margin: 10px;
+}
+#fasong{
+	border: 1px solid royalblue;
+	line-height: 50px;
 }

@@ -105,6 +105,7 @@
 	width: 100%;
 	height: auto;
 	/*text-indent: 10px;*/
+	border: 1px solid royalblue;
 }
 
 #rightatupian img {
@@ -130,9 +131,10 @@
 }
 .rightadib{
 	position: relative;
+	border: 1px solid red;
 }
 .dianzan{
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	background-color: grey;
 	border-radius: 9%;
 	width: 140px;
@@ -149,6 +151,7 @@
 	display: flex;
 }
 .a img{
+	border: 1px solid rosybrown;
 	width: 20px;
 	height: 20px;
 }
@@ -166,18 +169,43 @@
 	
 }
 #pinlun{
-	height: 40px;
-	/*border: 1px solid red;*/
+
+	border: 1px solid red;
 	display: flex;
 	flex-flow: column ;
 	justify-content: center;
 	text-indent: 5px;
 	line-height: 20px;
 }
-#pinkunkuang{
+.pinkunkuang{
 	height: 20px;
 	width: 98%;
-	/*border: 1px solid blue;*/
+	border: 1px solid blue;
 	background-color: #EEEEEE;
 	
+}
+.light-box{
+	opacity: 1;
+	background: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.datu{
+	/*width: 80%;
+	height: 80%;*/
+	top: 20%;
+	margin: 0 auto;
+	/*background-color: red;*/
+	position: relative;
+	box-shadow: 0px 0px 5px #808080;
+	margin: 20px;
+	opacity: 100%;
+}
+.tup{
+	width: 100%;
+
+//	margin: 0 auto;
+//	top: 20%;
+	position: relative;
 }
