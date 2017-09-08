@@ -1,0 +1,211 @@
+#top2a a {
+	text-decoration: none;
+	color: white;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.dongtai {
+	flex-grow: 1;
+	/*height: auto;*/
+	overflow-y: scroll;
+	/*display: flex;*/
+	/*flex-flow: column;*/
+	/*display: block;*/
+}
+
+#fengmian {
+	width: 100%;
+	height: 260px;
+	/*border: 1px solid red;*/
+	position: relative;
+	/*display: flex;	
+	flex-flow: column;	*/
+}
+
+#picture {
+	width: 100%;
+	height: 240px;
+	/*border: 1px solid blue;*/
+	background-image: url(../img/189000936.jpg);
+	background-size: cover;
+}
+
+#touxiang {
+	width: 160px;
+	height: 80px;
+	/*border: 1px solid yellow;*/
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+	display: flex;
+}
+
+#mayun {
+	width: 50%;
+	height: 80px;
+	/*border: 1px solid green;*/
+	text-align: center;
+	line-height: 80px;
+	color: white;
+}
+
+#mayuntou {
+	width: 50%;
+	height: 80px;
+	border: 2px double gainsboro;
+}
+#mayuntou img{
+	width: 80px;
+	height: 80px;
+}
+#liubai {
+	width: 100%;
+	height: 20px;
+	/*border: 1px solid red;*/
+}
+
+.zhuangtai {
+	width: 100%;
+	height: auto;
+	border: 1px  solid gainsboro;
+	border-top-style: none;
+	display: flex;
+	/*flex-flow: row wrap;*/
+}
+
+.left {
+	width: 70px;
+	height: auto;
+	/*border: 1px solid blue;*/
+}
+
+.lefttupian div {
+	width: 70px;
+	height: 70px;
+	/*border: 2px double gainsboro;*/
+}
+.lefttupian img{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+}
+.right {
+	width: 100%;
+	height: auto;
+	/*border: 1px solid yellow;*/
+	display: flex;
+	flex-flow: column;
+	
+}
+
+.righta {
+	width: 100%;
+	height: auto;
+	/*text-indent: 10px;*/
+	border: 1px solid royalblue;
+}
+
+#rightatupian img {
+	width: 100px;
+	height: 100px;
+}
+#chongqian img {
+	width: 200px;
+	height: 180px;
+}
+#rightadiadi {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.rightadia{
+	color: gray;
+	line-height: 30px;
+	font-size: small;
+}
+#rightacolor{
+	color: darkslateblue;
+}
+.rightadib{
+	position: relative;
+	border: 1px solid red;
+}
+.dianzan{
+	border: 1px solid red;
+	background-color: grey;
+	border-radius: 9%;
+	width: 140px;
+	height: 30px;
+	position: absolute;
+	right: 35px;
+	bottom: 0px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.zan{
+	width: 60px;
+	display: flex;
+}
+.a img{
+	border: 1px solid rosybrown;
+	width: 20px;
+	height: 20px;
+}
+.c img{
+	width: 10px;
+	height: 10px;
+}
+.pin{
+	width: 80px;
+	display: flex;
+}
+.rightadib img {
+	width: 30px;
+	height: 30px;
+	
+}
+#pinlun{
+
+	border: 1px solid red;
+	display: flex;
+	flex-flow: column ;
+	justify-content: center;
+	text-indent: 5px;
+	line-height: 20px;
+}
+.pinkunkuang{
+	height: 20px;
+	width: 98%;
+	border: 1px solid blue;
+	background-color: #EEEEEE;
+	
+}
+.light-box{
+	opacity: 1;
+	background: black;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.datu{
+	/*width: 80%;
+	height: 80%;*/
+	top: 20%;
+	margin: 0 auto;
+	/*background-color: red;*/
+	position: relative;
+	box-shadow: 0px 0px 5px #808080;
+	margin: 20px;
+	opacity: 100%;
+}
+.tup{
+	width: 100%;
+
+//	margin: 0 auto;
+//	top: 20%;
+	position: relative;
+}
