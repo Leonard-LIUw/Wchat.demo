@@ -1,2 +1,2 @@
 # Wchat.demo
-  [微信布局页面](https://github.com/Leonard-LIUw/Wchat.demo/blob/master/Wechat/首页.html)
+  [微信布局页面](https://leonard-liuw.github.io/Wchat.demo/首页.html)
